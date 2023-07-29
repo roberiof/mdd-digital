@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+@layer base{
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: 'Anonymous Pro', monospace;
+        /* overflow-x: hidden; */
+    }
+    
+    a {
+        color:white;
+        font-size: 1.3rem;
+        text-decoration: none;
+        margin-top: 1em;
+        display: inline-block;
+        font-weight: bold;
+        padding: .5em;
+        margin-left: -.5em;
+        position: relative;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    
+        &:before, &:after {
+            position: absolute;
+            content: '';
+            border-bottom: 3px solid white;
+            border-radius: 1em;
+            bottom: .3em;
+            transition: transform .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+    
+        &:before {
+            width: 1em;
+            transform-origin: left;
+        }
+    
+        &:after {
+            width: 82%;
+            left: 1em;
+            transform: translateX(110%);
+        }
+    
+        &:hover:before {
+            transform: scaleX(0.3);
+        }
+    
+        &:hover:after {
+            transform: translateX(0);
+        }
+    }
+}
+
+
+@layer components{
+    .hiddenIcon{
+        flex-direction: column;
+        justify-content: space-around;
+        width: 2rem;
+        height: 2rem;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        z-index: 10;
+    }
+    
+    .hiddenIcon div{
+        width: 2rem;
+        height: 0.25rem;
+        background-color: white;
+        border-radius: 10px;
+        transition: all 0.3s linear;
+        position: relative;
+        transform-origin: 1px;
+    }
+
+    .hiddenIcon div:first-child {
+        transform: rotate(0);
+    }
+    .hiddenIcon div:nth-child(2) {
+        opacity: 1;
+        transform: translateX(0)
+    }
+    .hiddenIcon div:nth-child(3) {
+        transform: rotate(0)
+    }
+
+    .hiddenIcon-active  div:first-child {
+        transform: rotate(45deg) !important;
+    }
+    .hiddenIcon-active  div:nth-child(2) {
+        opacity: 0;
+        transform: translateX(20px) !important;
+    }
+    .hiddenIcon-active  div:nth-child(3) {
+        transform: rotate(-45deg) !important
+    }
+
+    .hiddenMenu{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        @apply bg-primary;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        height: 100vh;
+        position:  absolute;
+        top: 100%;
+        right: 0; 
+        padding-top: 1rem;
+        padding-inline: 6rem;
+        display: flex;
+    }
+    
+    .hiddenMenu-active{
+        transform: translateX(0) !important;
+    }
+
+}
+
+

@@ -9,10 +9,14 @@ export default {
       },
       fontFamily: {
         "homeTitle": "'Montserrat', sans-serif",
-        "title": "'JetBrains Mono', monospace",
+        "title": "'Inconsolata', monospace"
+        ,
       },
       spacing: {
     
+      },
+      dropShadow: {
+        'homeTitle': '0 2px 1px #5271FF'
       }
     },
   },

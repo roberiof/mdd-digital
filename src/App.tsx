@@ -5,11 +5,11 @@ import AuxHomeSection from "./components/AuxHomeSection"
 function App() {
 
   return (
-    <>
+    <div className="block m-auto shadow-2xl" style={{maxWidth: '2500px'}}> 
       <Header/> 
       <HomeSection/>
       <AuxHomeSection/>
-    </>
+    </div>
   )
 }
 

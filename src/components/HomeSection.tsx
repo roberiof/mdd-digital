@@ -8,7 +8,7 @@ const HomeSection = () => {
 
       <p className='text-xl  font-medium z-10'> Conheça nossas soluções. </p>
       <div className='z-20 mx-5 text-center'>
-        <h1 className='mb-2'> Alavanque sua empresa </h1>
+        <h1 className='mb-2'> Alavanque <br/> sua empresa </h1>
         <TypingEffect containerStyles="text-2xl font-semibold" text="com estratégias de marketing que funcionam"/>
       </div>
       <p className='font-medium z-10 hover:underline'> MDD Digital e Cia </p>

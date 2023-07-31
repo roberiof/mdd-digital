@@ -38,9 +38,9 @@ const Header = () => {
             </header>
 
             <div className={IsMenuOpened ? 'hiddenMenu hiddenMenu-active' : 'hiddenMenu'}>
-                <a href=""> Serviços </a>
-                <a href=""> Trabalhos </a>
-                <a href=""> Opiniões </a>
+                <a href="" className='headerLink'> Serviços </a>
+                <a href="" className='headerLink'> Trabalhos </a>
+                <a href="" className='headerLink'> Opiniões </a>
             </div>
         </div>
     )

@@ -11,7 +11,7 @@ const AuxHomeSection = () => {
   }, [])
   return (
     <section className='bg-primary flex justify-center'>
-        <div className='py-12 px-8 text-white min-h-screen flex flex-col justify-center xl:justify-between gap-8 w-5/6 max-w-screen-2xl'>
+        <div className='wrapper flex flex-col justify-center xl:justify-between gap-8'>
           <img src={abstractWhite} alt="" className='hidden xl:flex w-36' data-aos="zoom-in"/>
           <div className='flex flex-col xl:flex-row justify-between items-center gap-14'>
               <img src={employee} alt="Worker of MDD Digital e Cia" className='w-96 h-96 object-cover' data-aos="fade-right" data-aos-duration="500"/>

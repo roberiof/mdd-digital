@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
-
 @layer base{
     *{
         box-sizing: border-box;
@@ -13,10 +11,10 @@
     }
     
     body{
-        @apply bg-primaryDarker;
+        @apply bg-outBodyColor;
     }
 
-    a {
+    .headerLink {
         color: white;
         font-size: 1.3rem;
         text-decoration: none;
@@ -29,8 +27,8 @@
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
     
-    a:before,
-    a:after {
+    .headerLink:before,
+    .headerLink:after {
         position: absolute;
         content: '';
         border-bottom: 3px solid white;
@@ -39,22 +37,22 @@
         transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
     }
     
-    a:before {
+    .headerLink:before {
         width: 1em;
         transform-origin: left;
     }
     
-    a:after {
+    .headerLink:after {
         width: 82%;
         left: 1em;
         transform: translateX(110%);
     }
     
-    a:hover:before {
+    .headerLink:hover:before {
         transform: scaleX(0.3);
     }
     
-    a:hover:after {
+    .headerLink:hover:after {
         transform: translateX(0);
     }
 
@@ -63,7 +61,7 @@
     }
 
     h2{
-        @apply text-5xl font-bold font-title;
+        @apply text-5xl md:text-7xl font-bold font-title;
     }
 
     p{
@@ -137,6 +135,9 @@
         transform: translateX(0) !important;
     }
 
+    .wrapper{
+        @apply py-28 text-white min-h-screen w-5/6 max-w-screen-2xl;
+    }
 }
 
 

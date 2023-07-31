@@ -5,11 +5,13 @@ export default {
     extend: {
       colors: {
         "primary": '#5271FF', 
-        "primaryDarker": '#394FEF', 
+        "primaryDarker": '#0464ff', 
+        "outBodyColor": '#394FEF', 
         "secondary": "#D3D3D4"
       },
       fontFamily: {
-        "homeTitle": "'Montserrat', sans-serif",
+        // ['"Press Start 2P"', 'cursive']
+        "homeTitle": ['"Montserrat"', 'sans-serif'],
         "title": "'Inconsolata', monospace"
         ,
       },

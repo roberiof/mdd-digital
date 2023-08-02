@@ -18,7 +18,7 @@ const ClientsSection = () => {
             <div className="wrapper m-auto">
                 <h2 className='mb-16 text-center'> Opinião dos clientes </h2>
                 <div className='flex flex-col xl:flex-row items-center xl:justify-between gap-16'>
-                    <div className='w-full sm:w-5/6 xl:w-1/4 flex flex-col gap-6'>
+                    <div className='w-full sm:w-5/6 xl:w-1/4 flex flex-col gap-6' data-aos="fade-up">
                         <div>
                             <p> Mary Gonçalves </p>
                             <p className='text-gray-300'> Borcelle Fashion </p>
@@ -26,7 +26,7 @@ const ClientsSection = () => {
                         <img src={client1} alt="" className='w-40 h-40 object-cover'/>
                         <p className='text-gray-300'> MDD Digital transformou nossa presença nas redes sociais. Eles criaram conteúdo incrível, aumentaram nosso engajamento e fizeram nossa marca brilhar!</p>
                     </div>
-                    <div className='w-full sm:w-5/6 xl:w-1/4 flex flex-col gap-6'>
+                    <div className='w-full sm:w-5/6 xl:w-1/4 flex flex-col gap-6' data-aos="fade-up">
                         <div>
                             <p> Carlos Almeida </p>
                             <p className='text-gray-300'> Shopping Online Store</p>
@@ -34,7 +34,7 @@ const ClientsSection = () => {
                         <img src={client2} alt="" className='w-40 h-40 object-cover'/>
                         <p className='text-gray-300'>O serviço de automação da MDD Digital poupou nosso tempo e melhorou nossas conversões. Recomendo a todos que buscam resultados rápidos e eficientes!</p>
                     </div>
-                    <div className='w-full sm:w-5/6 xl:w-1/4 flex flex-col gap-6'>
+                    <div className='w-full sm:w-5/6 xl:w-1/4 flex flex-col gap-6' data-aos="fade-up">
                         <div>
                             <p> Fábio Marques </p>
                             <p className='text-gray-300'> Corretor de Imóveis </p>

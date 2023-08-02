@@ -4,6 +4,7 @@ import AuxHomeSection from "./components/AuxHomeSection"
 import IntroServiceSection from "./components/IntroServiceSection"
 import MarketingServiceSection from "./components/MarketingServiceSection"
 import EmailServiceSection from "./components/EmailServiceSection"
+import WorkSection from "./components/WorkSection"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <IntroServiceSection/>
       <MarketingServiceSection/>
       <EmailServiceSection/>
+      <WorkSection/>
     </div>
   )
 }

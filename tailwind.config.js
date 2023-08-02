@@ -16,7 +16,7 @@ export default {
         ,
       },
       height: {
-        '15 0': '150vh',
+        '150': '150vh',
       },
       dropShadow: {
         'homeTitle': '0 2px 1px #5271FF'

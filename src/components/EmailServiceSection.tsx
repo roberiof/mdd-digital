@@ -11,10 +11,10 @@ const EmailServiceSection = () => {
     }, [])
 
     return (
-        <section className='bg-secondary relative'>
-            <div className="wrapper flex flex-col text-center xl:text-start xl:flex-row m-auto items-center min-h-screen xl:justify-end justify-start">
+        <section className='bg-secondary relative h-150 sm:h-screen xl:flex'>
+            <div className="wrapper flex flex-col text-center xl:text-start xl:flex-row m-auto py-0 items-center h-2/3 justify-center xl:justify-end">
                 <img src={emailManagement} className='absolute object-cover w-full h-1/3 bottom-0 shadow-2xl xl:w-1/2 xl:h-full xl:left-0' data-aos="zoom-in"/>
-                <div className='text-black flex flex-col gap-8 xl:w-1/3'>
+                <div className='text-black flex flex-col gap-8 xl:w-1/2 xl:pl-28'>
                     <h2 className='mb-10' data-aos="fade-up"> Email Marketing </h2>
                     <p data-aos="fade-up"> Maximize seus resultados com nosso serviço de email marketing exclusivo. Nossos templates profissionais e envolventes combinados com estratégias personalizadas alcançarão seu público no momento certo. Através da automação inteligente, nutriremos relacionamentos e otimizaremos constantemente suas campanhas com base em análises detalhadas.</p>
                     <div>

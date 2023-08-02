@@ -703,7 +703,6 @@ p {
 }
 
 .wrapper {
-  min-height: 100vh;
   width: 83.333333%;
   max-width: 1536px;
   padding-top: 7rem;
@@ -776,28 +775,16 @@ p {
   position: relative;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .left-0 {
   left: 0px;
 }
 
-.right-0 {
-  right: 0px;
-}
-
 .top-0 {
   top: 0px;
-}
-
-.left-1\/2 {
-  left: 50%;
-}
-
-.right-1\/2 {
-  right: 50%;
-}
-
-.bottom-0 {
-  bottom: 0px;
 }
 
 .z-0 {
@@ -849,20 +836,20 @@ p {
   display: none;
 }
 
+.h-1\/3 {
+  height: 33.333333%;
+}
+
+.h-2\/3 {
+  height: 66.666667%;
+}
+
 .h-96 {
   height: 24rem;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-1\/2 {
-  height: 50%;
-}
-
-.h-1\/3 {
-  height: 33.333333%;
 }
 
 .min-h-screen {
@@ -901,15 +888,6 @@ p {
   max-width: 48rem;
 }
 
-.translate-x-1\/2 {
-  --tw-translate-x: 50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
@@ -920,14 +898,6 @@ p {
 
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
-}
-
-.justify-end {
-  justify-content: flex-end;
 }
 
 .justify-center {
@@ -1019,6 +989,11 @@ p {
   padding-right: 1.5rem;
 }
 
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1034,10 +1009,6 @@ p {
 
 .text-justify {
   text-align: justify;
-}
-
-.text-end {
-  text-align: end;
 }
 
 .text-2xl {
@@ -1087,11 +1058,6 @@ p {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-primary {
-  --tw-text-opacity: 1;
-  color: rgb(82 113 255 / var(--tw-text-opacity));
-}
-
 .opacity-50 {
   opacity: 0.5;
 }
@@ -1122,6 +1088,12 @@ p {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+@media (min-width: 640px) {
+  .sm\:h-screen {
+    height: 100vh;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1176,12 +1148,12 @@ p {
 }
 
 @media (min-width: 1280px) {
-  .xl\:right-0 {
-    right: 0px;
-  }
-
   .xl\:left-0 {
     left: 0px;
+  }
+
+  .xl\:right-0 {
+    right: 0px;
   }
 
   .xl\:m-0 {
@@ -1196,16 +1168,16 @@ p {
     height: 100%;
   }
 
-  .xl\:w-1\/3 {
-    width: 33.333333%;
-  }
-
   .xl\:w-1\/2 {
     width: 50%;
   }
 
   .xl\:flex-row {
     flex-direction: row;
+  }
+
+  .xl\:justify-start {
+    justify-content: flex-start;
   }
 
   .xl\:justify-end {
@@ -1216,12 +1188,16 @@ p {
     justify-content: space-between;
   }
 
-  .xl\:text-start {
-    text-align: start;
+  .xl\:pl-28 {
+    padding-left: 7rem;
   }
 
-  .xl\:text-end {
-    text-align: end;
+  .xl\:pr-28 {
+    padding-right: 7rem;
+  }
+
+  .xl\:text-start {
+    text-align: start;
   }
 }
 

@@ -1,10 +1,10 @@
 import { useRef, ReactNode, createContext } from "react";
 
-interface LinkContextType {
-    servicesSection: ReactNode,
-    worksSection: ReactNode,
-    opinionsSection: ReactNode,
-}
+// interface LinkContextType {
+//     servicesSection: ReactNode,
+//     worksSection: ReactNode,
+//     opinionsSection: ReactNode,
+// }
 
 interface LinkProviderProps {
     children: ReactNode; 

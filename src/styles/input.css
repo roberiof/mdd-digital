@@ -14,7 +14,7 @@
         @apply bg-outBodyColor;
     }
 
-    a {
+    .headerLink {
         color: white;
         font-size: 1.3rem;
         text-decoration: none;
@@ -27,8 +27,8 @@
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
     
-    a:before,
-    a:after {
+    .headerLink:before,
+    .headerLink:after {
         position: absolute;
         content: '';
         border-bottom: 3px solid white;
@@ -37,22 +37,22 @@
         transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
     }
     
-    a:before {
+    .headerLink:before {
         width: 1em;
         transform-origin: left;
     }
     
-    a:after {
+    .headerLink:after {
         width: 82%;
         left: 1em;
         transform: translateX(110%);
     }
     
-    a:hover :before {
+    .headerLink:hover:before {
         transform: scaleX(0.3);
     }
     
-    a:hover:after {
+    .headerLink:hover:after {
         transform: translateX(0);
     }
 

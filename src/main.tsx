@@ -1,9 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
+import { LinkProvider } from './context/LinkContext'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <LinkProvider>
+      <App />
+    </LinkProvider>
   </React.StrictMode>,
 )

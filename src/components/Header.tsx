@@ -1,16 +1,35 @@
-import { useState, useRef, useEffect } from 'react'
-import logo_name from '../assets/logo_name.png'
+import { useState, useRef, useEffect, useContext, MouseEvent} from 'react'
+import logo_name from '../assets/logo-name.png'
 import zap from '../assets/zap.png'
+import { LinkContext } from '../context/LinkContext'
 
 const Header = () => {
     const [ IsMenuOpened , setIsMenuOpened ] = useState<boolean>(false)
     const zapLink = useRef<HTMLAnchorElement>(document.createElement("a"))
     const header = useRef<HTMLElement>(document.createElement("header"))
 
-    useEffect( () =>{
+    const { servicesSection, worksSection , opinionsSection } = useContext(LinkContext)
 
+    const scrollToSection = (e:MouseEvent<HTMLAnchorElement> , section:string, isHeader?:string) => {
+        e.preventDefault()
+        if (section === 'services'){
+            servicesSection.current.scrollIntoView({ behavior: 'smooth' });
+        }else if (section  === 'works'){
+            worksSection.current.scrollIntoView({behavior: 'smooth'})
+        } else if (section === 'opinions'){
+            opinionsSection.current.scrollIntoView({behavior: 'smooth'})
+        }
+        
+        if(isHeader === 'header'){
+            setIsMenuOpened(false)
+        }
+    };
+
+    useEffect( () =>{
         if(IsMenuOpened){
             header.current.style.position = 'fixed'
+        } else{
+            header.current.style.position = 'absolute'
         }
 
     }, [IsMenuOpened])
@@ -21,9 +40,9 @@ const Header = () => {
                 <img className='w-32' src={logo_name} alt=""/>
                 <div className='flex text-white gap-8 items-center'>
                     <nav className='pb-6 gap-8 hidden md:flex'>
-                        <a href=""> Serviços </a>
-                        <a href=""> Trabalhos </a>
-                        <a href=""> Opiniões </a>
+                            <a href="" className='headerLink' onClick={(e) => scrollToSection(e, 'services')}> Serviços </a>
+                            <a href="" className='headerLink' onClick={(e) => scrollToSection(e, 'works')}> Trabalhos </a>
+                            <a href="" className='headerLink' onClick={(e) => scrollToSection(e, 'opinions')}> Opiniões </a>
                     </nav>
                     <button  className={IsMenuOpened ? 'hiddenIcon hiddenIcon-active flex md:hidden' : 'hiddenIcon flex md:hidden'} onClick={() => setIsMenuOpened(!IsMenuOpened)}>
                         <div className='flex md:hidden  '></div>
@@ -38,9 +57,9 @@ const Header = () => {
             </header>
 
             <div className={IsMenuOpened ? 'hiddenMenu hiddenMenu-active' : 'hiddenMenu'}>
-                <a href="" className='headerLink'> Serviços </a>
-                <a href="" className='headerLink'> Trabalhos </a>
-                <a href="" className='headerLink'> Opiniões </a>
+                <a href="" className='headerLink' onClick={(e) => scrollToSection(e, 'services', 'header')}> Serviços </a>
+                <a href="" className='headerLink' onClick={(e) => scrollToSection(e, 'works', 'header')}> Trabalhos </a>
+                <a href="" className='headerLink' onClick={(e) => scrollToSection(e, 'opinions', 'header')}> Opiniões </a>
             </div>
         </div>
     )

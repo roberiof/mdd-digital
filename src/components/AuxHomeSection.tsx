@@ -10,7 +10,7 @@ const AuxHomeSection = () => {
     AOS.init();
   }, [])
   return (
-    <section className='bg-primary flex justify-center'>
+    <section className='bg-primary flex justify-center min-h-screen'>
         <div className='wrapper flex flex-col justify-center xl:justify-between gap-8'>
           <img src={abstractWhite} alt="" className='hidden xl:flex w-36' data-aos="zoom-in"/>
           <div className='flex flex-col xl:flex-row justify-between items-center gap-14'>

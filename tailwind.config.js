@@ -4,8 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        "primary": '#5271FF', 
-        "primaryDarker": '#0464ff', 
+        "primary": '#0464ff', 
         "outBodyColor": '#394FEF', 
         "secondary": "#D3D3D4"
       },
@@ -19,7 +18,7 @@ export default {
         '150': '150vh',
       },
       dropShadow: {
-        'homeTitle': '0 2px 1px #5271FF'
+        'homeTitle': '0 2px 1px #0464ff'
       }
     },
   },

@@ -1,4 +1,4 @@
-import {useEffect} from 'react'
+import {useEffect, useContext} from 'react'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -7,14 +7,18 @@ import 'aos/dist/aos.css';
 import client1 from '../assets/client1.jpg'
 import client2 from '../assets/client2.jpg'
 import client3 from '../assets/client3.jpg'
+import { LinkContext } from '../context/LinkContext';
 
 const ClientsSection = () => {
+
+    const { opinionsSection } = useContext(LinkContext)
+
     useEffect(() => {
         AOS.init();
     }, [])
 
     return (
-        <section className='bg-primaryDarker'>
+        <section className='bg-primary' ref={opinionsSection}>
             <div className="wrapper m-auto">
                 <h2 className='mb-16 text-center'> Opinião dos clientes </h2>
                 <div className='flex flex-col xl:flex-row items-center xl:justify-between gap-16'>

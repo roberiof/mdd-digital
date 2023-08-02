@@ -2,6 +2,7 @@ import TypingEffect from './TypingEffect'
 import homeBg from '../assets/home-bg.jpg'
 
 const HomeSection = () => {
+  
   return (
     <section className='bg-gray-900 min-h-screen overflow-hidden bg-cover flex justify-between items-center flex-col py-20 text-white relative' style={{backgroundImage: `url(${homeBg})`}}>  
       <div className='absolute bg-black w-full h-full top-0 left-0 opacity-50 z-0'></div>

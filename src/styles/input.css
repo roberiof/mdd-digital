@@ -136,18 +136,18 @@
     }
 
     .wrapper{
-        @apply py-28 text-white min-h-screen w-5/6 max-w-screen-2xl;
+        @apply py-28 text-white w-5/6 max-w-screen-2xl;
     }
 
     .saibaMaisBtn {
-    position: relative;
-    padding: 1em 1.5em;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    outline: none;
-    font-size: 18px;
-    margin: 1em 0.8em;
+        position: relative;
+        padding: 1em 1.5em;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        outline: none;
+        font-size: 18px;
+        margin: 1em 0.8em;
     }
 
     .saibaMaisBtn {

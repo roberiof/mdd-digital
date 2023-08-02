@@ -15,8 +15,8 @@ export default {
         "title": "'Inconsolata', monospace"
         ,
       },
-      spacing: {
-    
+      height: {
+        '15 0': '150vh',
       },
       dropShadow: {
         'homeTitle': '0 2px 1px #5271FF'

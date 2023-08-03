@@ -25,27 +25,27 @@ const WorkSection = () => {
         <div className='wrapper m-auto text-center'>
             <h2 className='text-primary mb-16'> Nossos trabalhos </h2>
             <div className='border-primary w-full flex flex-wrap gap-16 justify-center'>
-                <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md hover:scale-110 cursor-pointer transition' data-aos="flip-right">
+                <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md cursor-pointer' data-aos="flip-right">
                     <img src={work1} alt=""/>  
                     <p className='text-black mt-5 hover:underline'> Shopping Online Store </p>
                 </div>      
-                <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md hover:scale-110 cursor-pointer transition' data-aos="flip-right">
+                <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md cursor-pointer' data-aos="flip-right">
                     <img src={work2} alt=""/>  
                     <p className='text-black mt-5 hover:underline'> Albuquerque Streamer </p>
                 </div>      
-                <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md hover:scale-110 cursor-pointer transition' data-aos="flip-right">
+                <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md cursor-pointer' data-aos="flip-right">
                     <img src={work3} alt=""  />  
                     <p className='text-black mt-5 hover:underline'> Borcelle Fashion </p>
                 </div>      
-                <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md hover:scale-110 cursor-pointer transition' data-aos="flip-right">
+                <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md cursor-pointer' data-aos="flip-right">
                     <img src={work4} alt=""  />  
                     <p className='text-black mt-5 hover:underline'> Fábio Marques </p>
                 </div>      
-                <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md hover:scale-110 cursor-pointer transition' data-aos="flip-right">
+                <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md cursor-pointer' data-aos="flip-right">
                     <img src={work5} alt=""  />  
                     <p className='text-black mt-5 hover:underline'> Estela Duarte </p>
                 </div>      
-                <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md hover:scale-110 cursor-pointer transition' data-aos="flip-right">
+                <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md cursor-pointer' data-aos="flip-right">
                     <img src={work6} alt=""  />  
                     <p className='text-black mt-5 hover:underline'> Barbearia Hannover e Tavares </p>
                 </div>      

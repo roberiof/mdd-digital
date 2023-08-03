@@ -4,9 +4,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'aos/dist/aos.css';
 
-import client1 from '../assets/client1.jpg'
-import client2 from '../assets/client2.jpg'
-import client3 from '../assets/client3.jpg'
+import client1 from '../assets/client1.webp'
+import client2 from '../assets/client2.webp'
+import client3 from '../assets/client3.webp'
 import { LinkContext } from '../context/LinkContext';
 
 const ClientsSection = () => {

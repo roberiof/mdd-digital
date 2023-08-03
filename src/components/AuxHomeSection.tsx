@@ -1,5 +1,5 @@
 import {useEffect} from 'react'
-import abstractWhite from '../assets/abstract-white.png'
+import abstractWhite from '../assets/abstract-white.webp'
 import employee from '../assets/employee.jpg'
 
 import AOS from 'aos';

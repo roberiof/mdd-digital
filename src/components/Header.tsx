@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useContext, MouseEvent} from 'react'
-import logo_name from '../assets/logo-name.png'
+import logo_name from '../assets/logo-name.webp'
 import zap from '../assets/zap.png'
 import { LinkContext } from '../context/LinkContext'
 

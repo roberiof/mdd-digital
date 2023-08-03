@@ -1,4 +1,4 @@
-import abstractBlue from '../assets/abstract-blue.png'
+import abstractBlue from '../assets/abstract-blue.webp'
 import {useContext, useEffect} from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';

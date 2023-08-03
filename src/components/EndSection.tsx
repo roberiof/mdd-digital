@@ -1,7 +1,7 @@
 import {useEffect} from 'react'
 
 import endBg from '../assets/end-bg.jpg'
-import abstractBlue from '../assets/abstract-blue.png'
+import abstractBlue from '../assets/abstract-blue.webp'
 
 import {FaFacebookF , FaTwitter, FaInstagram} from 'react-icons/fa'
 

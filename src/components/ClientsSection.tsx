@@ -27,7 +27,7 @@ const ClientsSection = () => {
                             <p> Mary Gonçalves </p>
                             <p className='text-gray-300'> Borcelle Fashion </p>
                         </div>
-                        <img src={client1} alt="" className='w-40 h-40 object-cover'/>
+                        <img src={client1} alt="Mary Gonçalves Profile" className='w-40 h-40 object-cover'/>
                         <p className='text-gray-300'> MDD Digital transformou nossa presença nas redes sociais. Eles criaram conteúdo incrível, aumentaram nosso engajamento e fizeram nossa marca brilhar!</p>
                     </div>
                     <div className='w-full sm:w-5/6 xl:w-1/4 flex flex-col gap-6' data-aos="fade-up">
@@ -35,7 +35,7 @@ const ClientsSection = () => {
                             <p> Carlos Almeida </p>
                             <p className='text-gray-300'> Shopping Online Store</p>
                         </div>
-                        <img src={client2} alt="" className='w-40 h-40 object-cover'/>
+                        <img src={client2} alt="Carlos Almeida Profile" className='w-40 h-40 object-cover'/>
                         <p className='text-gray-300'>O serviço de automação da MDD Digital poupou nosso tempo e melhorou nossas conversões. Recomendo a todos que buscam resultados rápidos e eficientes!</p>
                     </div>
                     <div className='w-full sm:w-5/6 xl:w-1/4 flex flex-col gap-6' data-aos="fade-up">
@@ -43,7 +43,7 @@ const ClientsSection = () => {
                             <p> Fábio Marques </p>
                             <p className='text-gray-300'> Corretor de Imóveis </p>
                         </div>
-                        <img src={client3} alt="" className='w-40 h-40 object-cover'/>
+                        <img src={client3} alt="Fábio Marques Profile" className='w-40 h-40 object-cover'/>
                         <p className='text-gray-300'>A MDD Digital fez toda a diferença para nossa empresa! Suas campanhas de email foram altamente eficazes, levando mais clientes ao nosso site. O aumento nas vendas foi notável!</p>
                     </div>
                  

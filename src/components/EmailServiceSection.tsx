@@ -19,7 +19,7 @@ const EmailServiceSection = () => {
                     <h2 className='mb-10' data-aos="fade-up"> Email Marketing </h2>
                     <p data-aos="fade-up"> Maximize seus resultados com nosso serviço de email marketing exclusivo. Nossos templates profissionais e envolventes combinados com estratégias personalizadas alcançarão seu público no momento certo. Através da automação inteligente, nutriremos relacionamentos e otimizaremos constantemente suas campanhas com base em análises detalhadas.</p>
                     <div>
-                        <button id="saiba mais" className='saibaMaisBtn w-1/2 m-auto xl:m-0' data-aos="flip-left" onClick={() => zapLink?.current.click()}> saiba mais  </button>
+                        <button id="saibaMaisEmail" className='saibaMaisBtn w-1/2 m-auto xl:m-0' data-aos="flip-left" onClick={() => zapLink?.current.click()}> saiba mais  </button>
                         <a href="https://api.whatsapp.com/send/?phone=558899620850&text=Venho+do+site+e+quero+conhecer+mais+sobre+seu+servi%C3%A7o+para+cria%C3%A7%C3%A3o+de+sites" aria-label="Vá para o nosso Whats App para saber mais" ref={zapLink} className="hidden"></a>
                     </div>
                 </div>

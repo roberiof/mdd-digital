@@ -26,27 +26,27 @@ const WorkSection = () => {
             <h2 className='text-primary mb-16'> Nossos trabalhos </h2>
             <div className='border-primary w-full flex flex-wrap gap-16 justify-center'>
                 <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md cursor-pointer' data-aos="flip-right">
-                    <img src={work1} alt=""/>  
+                    <img src={work1} alt="Shopping Online Store Logo"/>  
                     <p className='text-black mt-5 hover:underline'> Shopping Online Store </p>
                 </div>      
                 <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md cursor-pointer' data-aos="flip-right">
-                    <img src={work2} alt=""/>  
+                    <img src={work2} alt="Albuquerque Streamer Logo"/>  
                     <p className='text-black mt-5 hover:underline'> Albuquerque Streamer </p>
                 </div>      
                 <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md cursor-pointer' data-aos="flip-right">
-                    <img src={work3} alt=""  />  
+                    <img src={work3} alt="Borcelle Fashion Logo"  />  
                     <p className='text-black mt-5 hover:underline'> Borcelle Fashion </p>
                 </div>      
                 <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md cursor-pointer' data-aos="flip-right">
-                    <img src={work4} alt=""  />  
+                    <img src={work4} alt="Fábio Marques Logo"  />  
                     <p className='text-black mt-5 hover:underline'> Fábio Marques </p>
                 </div>      
                 <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md cursor-pointer' data-aos="flip-right">
-                    <img src={work5} alt=""  />  
+                    <img src={work5} alt="Estela Duarte Logo"/>  
                     <p className='text-black mt-5 hover:underline'> Estela Duarte </p>
                 </div>      
                 <div className='border border-primary w-full sm:w-1/4 p-4 rounded-md cursor-pointer' data-aos="flip-right">
-                    <img src={work6} alt=""  />  
+                    <img src={work6} alt="Barbearia Hannover e Tavares Logo"/>  
                     <p className='text-black mt-5 hover:underline'> Barbearia Hannover e Tavares </p>
                 </div>      
             </div>

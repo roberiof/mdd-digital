@@ -12,7 +12,7 @@ const AuxHomeSection = () => {
   return (
     <section className='bg-primary flex justify-center min-h-screen'>
         <div className='wrapper flex flex-col justify-center xl:justify-between gap-8'>
-          <img src={abstractWhite} alt="" className='hidden xl:flex w-36' data-aos="zoom-in"/>
+          <img src={abstractWhite} alt="Abstract Logo" className='hidden xl:flex w-36' data-aos="zoom-in"/>
           <div className='flex flex-col xl:flex-row justify-between items-center gap-14'>
               <img src={employee} alt="Worker of MDD Digital e Cia" className='w-96 h-96 object-cover' data-aos="fade-right" data-aos-duration="500"/>
               <div className='flex flex-col gap-6 max-w-3xl' data-aos="fade-left" data-aos-duration="500">

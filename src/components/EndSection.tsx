@@ -20,7 +20,7 @@ const EndSection = () => {
             <div className='wrapper m-auto flex flex-col lg:flex-row h-full relative justify-between'>
                 <div className='flex flex-col justify-between w-full lg:w-1/2 z-20'>
                     <h2 data-aos="zoom-out">Vamos levar sua empresa para o próximo nível.</h2>
-                    <img data-aos="zoom-in" src={abstractBlue} alt="" className='w-36 hidden lg:flex'/>
+                    <img data-aos="zoom-in" src={abstractBlue} alt="Abstract Logo" className='w-36 hidden lg:flex'/>
                 </div>  
                 <div className='w-full lg:w-1/2 relative'>
                     <div className='flex flex-col justify-end z-20 lg:absolute lg:right-0 lg:bottom-0' data-aos="fade-left">
@@ -35,9 +35,9 @@ const EndSection = () => {
                                 <p>(12) 3456-7890</p>
                                 <p>mdd@gmail.com.br</p>
                                 <div className='flex gap-4 items-center'>
-                                    <a href="https://www.facebook.com/" target="_blank" className='w-12 mb-2 cursor-pointer hover:scale-110'> <FaFacebookF size={'2rem'}/> </a>
-                                    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D" className='w-12 mb-2 cursor-pointer hover:scale-110' target="_blank"> <FaTwitter size={'2rem'}/> </a>
-                                    <a href="https://www.instagram.com/" target="_blank" className='w-12 mb-2 cursor-pointer hover:scale-110'> <FaInstagram size={'2rem'}/> </a>
+                                    <a href="https://www.facebook.com/" aria-label="Vá ao nosso Facebook" target="_blank" className='w-12 mb-2 cursor-pointer hover:scale-110'> <FaFacebookF size={'2rem'}/> </a>
+                                    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D" aria-label="Vá ao nosso Twitter" className='w-12 mb-2 cursor-pointer hover:scale-110' target="_blank"> <FaTwitter size={'2rem'}/> </a>
+                                    <a href="https://www.instagram.com/" aria-label="Vá ao nosso Instagram" target="_blank" className='w-12 mb-2 cursor-pointer hover:scale-110'> <FaInstagram size={'2rem'}/> </a>
                                 </div>
                             </div>
                         </div>

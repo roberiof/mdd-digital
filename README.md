@@ -29,6 +29,11 @@ MDD Digital is a marketing company focused on Social Media and Email marketing. 
 * Improving the performance using **[ Page Speed Insights ](https://pagespeed.web.dev/)**
 * Using conventional commits pattern
 
+## 🧱 Next Steps
+* Add a FAQ page 
+* Add their address
+
+
 
 
 

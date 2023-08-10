@@ -691,7 +691,7 @@ p {
   transition: transform 0.3s ease-in-out;
   min-height: 100vh;
   position: fixed;
-  top: 127px;
+  top: 110px;
   right: 0;
   padding-inline: 6rem;
   z-index: 40;
@@ -820,6 +820,10 @@ p {
   margin-bottom: 2.5rem;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .mb-16 {
   margin-bottom: 4rem;
 }
@@ -834,14 +838,6 @@ p {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
-.mb-14 {
-  margin-bottom: 3.5rem;
 }
 
 .block {
@@ -888,14 +884,6 @@ p {
   height: 100%;
 }
 
-.h-14 {
-  height: 3.5rem;
-}
-
-.h-32 {
-  height: 8rem;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -934,14 +922,6 @@ p {
 
 .w-full {
   width: 100%;
-}
-
-.w-14 {
-  width: 3.5rem;
-}
-
-.w-32 {
-  width: 8rem;
 }
 
 .max-w-3xl {

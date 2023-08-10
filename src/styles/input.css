@@ -124,7 +124,7 @@
         transition: transform 0.3s ease-in-out;
         min-height: 100vh;
         position: fixed;
-        top: 127px;
+        top: 110px;
         right: 0; 
         padding-inline: 6rem;
         z-index: 40;

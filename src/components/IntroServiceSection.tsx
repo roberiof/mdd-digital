@@ -16,7 +16,7 @@ const IntroServiceSection = () => {
             <div className="wrapper flex justify-between lg:items-end items-center flex-col lg:flex-row gap-20">
                 <div className='flex flex-col justify-between h-full'>
                     <h2 className='text-primary lg:w-1/4 text-center lg:text-start'> Conheça nossos serviços </h2>
-                    <img src={abstractBlue} alt="Abstract Logo" className="hidden lg:flex w-36" data-aos='zoom-in'/>
+                    <img src={abstractBlue} alt="Abstract Logo" className="hidden xl:flex w-36" data-aos='zoom-in'/>
                 </div>
                 
                 <div className='flex flex-col w-full text-primary gap-8'>

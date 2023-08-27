@@ -11,7 +11,7 @@ const MarketingServiceSection = () => {
     }, [])
 
     return (
-        <section className='bg-secondary relative h-150 sm:h-screen xl:flex'>
+        <section className='bg-secondary relative h-150 2xl:h-screen xl:flex'>
             <div className=" wrapper flex flex-col text-center xl:text-start xl:flex-row m-auto py-0 items-center h-2/3 justify-center xl:justify-start">
                 <div className='text-black flex flex-col gap-8 xl:w-1/2 xl:pr-28'>
                     <h2 className='mb-10' data-aos='fade-up'> Marketing para redes sociais </h2>

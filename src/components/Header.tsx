@@ -37,7 +37,7 @@ const Header = () => {
     return (
         <div className='z-40 mb-14'>
             <header className='bg-primary flex items-center justify-between px-6 md:px-14  shadow-xl w-full z-40' ref={header}>
-                <img className='w-28 h-28' src={logo_name} alt="Mdd Digital Logo"/>
+                <img className='w-20 h-20' src={logo_name} alt="Mdd Digital Logo"/>
                 <div className='flex text-white gap-8 items-center'>
                     <nav className='pb-6 gap-8 hidden md:flex'>
                             <a href="#" aria-label="Conheça os nossos serviços" className='headerLink' onClick={(e) => scrollToSection(e, 'services')}> Serviços </a>

@@ -7,6 +7,7 @@ import EmailServiceSection from "./components/EmailServiceSection"
 import WorkSection from "./components/WorkSection"
 import ClientsSection from "./components/ClientsSection"
 import EndSection from "./components/EndSection"
+import FAQSection from "./components/FAQSection"
 
 function App() {
 
@@ -19,7 +20,8 @@ function App() {
       <MarketingServiceSection/>
       <EmailServiceSection/>
       <WorkSection/>
-      <ClientsSection/>
+      <ClientsSection/> 
+      <FAQSection/> 
       <EndSection/>
     </div>
   )

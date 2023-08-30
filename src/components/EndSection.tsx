@@ -7,7 +7,6 @@ import {FaFacebookF , FaTwitter, FaInstagram} from 'react-icons/fa'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import 'aos/dist/aos.css';
 
 const EndSection = () => {
     useEffect(() => {
